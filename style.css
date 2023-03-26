@@ -17,7 +17,7 @@
     .player{
         border-radius: 15px;
         width: 600px;
-        height: 850px;
+        height: 800px;
         padding: 10px;
         background-color: #1D1D1D;
         margin:auto;
@@ -103,7 +103,7 @@
     .playlist{
         padding-bottom: 20px;
         margin-top: 10px;
-        max-height: 380px;
+        max-height: 350px;
         overflow: scroll;
         scrollbar-color: #78e08f #202020b9;
    }
