@@ -1,0 +1,286 @@
+@media (min-width: 640px) {
+    body{
+        background-color: #000000;
+        color: white;
+        font-family: 'Verdana', sans-serif;
+   }
+    ::-webkit-scrollbar {
+        width: 10px;
+        width: 3px;
+   }
+    ::-webkit-scrollbar-track {
+        background: #1D1D1D;
+   }
+    ::-webkit-scrollbar-thumb {
+        background: #78e08f;
+   }
+    .player{
+        border-radius: 15px;
+        width: 600px;
+        height: 850px;
+        padding: 10px;
+        background-color: #1D1D1D;
+        margin:auto;
+        margin-top: 50px;
+   }
+    .player img {
+        width: 128px;
+        height: 128px;
+        justify-content: center;
+        width: 24%;
+        margin: auto;
+        display: block;
+        border-radius: 10px 10px 10px 10px;
+   }
+    #progress {
+        margin: auto;
+        display: block;
+        width: 400px;
+        background-color: #ffffff;
+        cursor: pointer;
+        border-radius: 10px;
+   }
+    #bar {
+        width: 0%;
+        height: 4px;
+        background-color: #78e08f;
+        border-radius: 10px;
+   }
+    .btn-action{
+        cursor: pointer;
+        padding-top: 10px;
+        width: 30px;
+   }
+    .btn, .main-infos, .sec-infos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   }
+    .main-infos{
+        padding-top: 20px;
+   }
+    .sec-infos {
+        padding-top: 15px;
+        padding-bottom: 20px;
+   }
+    .btn > div {
+        padding: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+   }
+    .main-infos > div {
+        margin-bottom: 8px;
+        color: #f5f6fa;
+   }
+    .sec-infos > div {
+        margin-bottom: 8px;
+        color: #f5f6fa;
+   }
+    .duration {
+        margin-left: 5px;
+        margin-right: 5px;
+   }
+    .playlist-track{
+        display: flex;
+        background-color: #202020b9;
+        margin-top: 3px;
+        border-radius: 5px;
+        cursor: pointer;
+   }
+    .playlist-track > div{
+        margin:10px;
+   }
+    .playlist-info-track{
+        width: 90%;
+   }
+    .playlist-info-track,.playlist-duration{
+        padding-top: 7px;
+        padding-bottom: 7px;
+        color: white;
+        font-size: 14px;
+        pointer-events: none;
+   }
+    .playlist{
+        padding-bottom: 20px;
+        margin-top: 10px;
+        max-height: 380px;
+        overflow: scroll;
+        scrollbar-color: #78e08f #202020b9;
+   }
+    .active-track > .playlist-info-track,.active-track >.playlist-duration,.active-track > .playlist-btn-play,.active-track{
+        color: #78e08f !important;
+   }
+    .playlist-btn-play{
+        pointer-events: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+   }
+    .fas {
+        color: white;
+        font-size: 20px;
+   }
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 60%;
+   }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+        margin-bottom: 60px;
+   }
+    .far {
+        color: white;
+        font-size: 30px;
+   }
+    .fa {
+        color: white;
+        font-size: 30px;
+   }
+    center {
+        color: white;
+        font-weight: bold;
+   }
+}
+@media (max-width: 640px) {
+    body{
+        background-color: #000000;
+        color: #44bd32;
+        font-family: 'Roboto', sans-serif;
+   }
+    ::-webkit-scrollbar {
+        width: 10px;
+        width: 3px;
+   }
+    ::-webkit-scrollbar-track {
+        background: #1D1D1D;
+   }
+    ::-webkit-scrollbar-thumb {
+        background: #78e08f;
+   }
+    .player{
+        border-radius: 15px;
+        width: 400px;
+        height: 800px;
+        padding: 10px;
+        background-color: #1D1D1D;
+        margin:auto;
+        margin-top: 100px;
+   }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+   }
+    .player img {
+        width: 124px;
+        height: 124px;
+        justify-content: center;
+        margin: auto;
+        display: block;
+        border-radius: 10px 10px 10px 10px;
+   }
+    #progress {
+        width: 400px;
+        background-color: #d9d9f2;
+        cursor: pointer;
+        border-radius: 10px;
+   }
+    #bar {
+        width: 0%;
+        height: 4px;
+        background-color: #78e08f;
+        border-radius: 10px;
+   }
+    .btn-action{
+        cursor: pointer;
+        padding-top: 10px;
+        width: 30px;
+   }
+    .btn, .main-infos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   }
+    .main-infos{
+        padding-top: 20px;
+   }
+
+    .btn > div {
+        padding: 5px;
+        margin-top: 18px;
+        margin-bottom: 18px;
+   }
+    .main-infos > div {
+        margin-bottom: 8px;
+        color: #f5f6fa;
+   }
+
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 60%;
+   }
+    .duration {
+        margin-left: 5px;
+        margin-right: 5px;
+   }
+    .playlist-track{
+        display: flex;
+        background-color: #202020b9;
+        margin-top: 3px;
+        border-radius: 5px;
+        cursor: pointer;
+   }
+    .playlist-track > div{
+        margin:10px;
+   }
+    .playlist-info-track{
+        width: 90%;
+   }
+    .playlist-info-track,.playlist-duration{
+        padding-top: 7px;
+        padding-bottom: 7px;
+        color: white;
+        font-size: 14px;
+        pointer-events: none;
+   }
+    .playlist{
+        max-height: 380px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        overflow: scroll;
+        scrollbar-color: #78e08f #202020b9;
+   }
+    .active-track > .playlist-info-track,.active-track >.playlist-duration,.active-track > .playlist-btn-play,.active-track{
+        color: #78e08f !important;
+   }
+    .playlist-btn-play{
+        pointer-events: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+   }
+    .fas {
+        color: white;
+        font-size: 20px;
+   }
+    .far {
+        color: white;
+        font-size: 30px;
+   }
+    .fa {
+        color: white;
+        font-size: 30px;
+   }
+    center {
+        color: white;
+        font-weight: bold;
+   }
+}

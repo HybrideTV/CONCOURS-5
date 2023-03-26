@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head> 
+      <meta charset="utf-8">
+      <title>Concours #5</title>
+      <script src="https://kit.fontawesome.com/a062562745.js"></script>
+      <link rel=stylesheet href="style.css">
+   </head>
+   <body>
+      <audio id="current" ontimeupdate="onTimeUpdate()">
+         <source id="source-audio" src="" type="audio/mpeg">
+         Votre navigateur ne supporte pas l'audio.
+      </audio>
+      <div class="player">
+         <div class="img"></div>
+         <div class="main-infos">
+            <div class="title"></div>
+         </div>
+         <div id="progress">
+            <div id="bar"></div>
+         </div>
+         <div class="sec-infos">
+            <div class="time">00:00</div>
+            <div class="duration">00:00</div>
+         </div>
+         <hr>
+         <div class="btn">
+            <div class="btn-action first-btn" onclick="prev()">
+               <div id="btn-faws-back">
+                  <i class='fas fa-step-backward'></i>
+               </div>
+            </div>
+            <div class="btn-action" onclick="toggleAudio()">
+               <div id="btn-faws-play-pause">
+                  <i class='fas fa-play' id="icon-play"></i>
+                  <i class='fas fa-pause' id="icon-pause" style="display: none"></i>
+               </div>
+            </div>
+            <div class="btn-action" onclick="next()">
+               <div id="btn-faws-next">
+                  <i class='fas fa-step-forward'></i>
+               </div>
+            </div>
+         </div>
+         <hr>
+         <center>🎶 MA PLAYLIST 🎶</center>
+         <div class="playlist"></div>
+         <div class="footer">Made with 💚 by HybrideTV</div>
+      </div>
+      <script src=script.js></script>
+   </body>
+</html>
